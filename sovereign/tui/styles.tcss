@@ -1,0 +1,25 @@
+/* Sovereign Tech Pipeline — Textual CSS */
+
+Screen {
+    background: $background;
+}
+
+Header {
+    dock: top;
+}
+
+Footer {
+    dock: bottom;
+}
+
+KanbanBoard {
+    dock: top;
+    height: 1fr;
+}
+
+DetailView {
+    dock: bottom;
+    height: auto;
+    min-height: 4;
+    max-height: 8;
+}

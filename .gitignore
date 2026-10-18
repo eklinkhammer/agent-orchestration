@@ -1,0 +1,11 @@
+__pycache__/
+*.pyc
+*.egg-info/
+.venv/
+*.db
+*.db-wal
+*.db-shm
+worktrees/
+.pytest_cache/
+kanban_screenshot.svg
+screenshot.py

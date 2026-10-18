@@ -1,0 +1,7 @@
+services:
+  test:
+    build: .
+    command: python -m pytest tests/ -v --tb=short
+    volumes:
+      - .:/app
+    working_dir: /app
